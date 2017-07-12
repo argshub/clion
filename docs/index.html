@@ -30,8 +30,8 @@
         <div class="col-lg-2 col-md-2 hidden-sm hidden-xs">
 		<div  id="sidenav">
             <ul class="list-group" id="bottom_nav">
-                <h6 class="list-group-item-heading pull-right"><a href="#" class="post" id="primitive">Primitive Type</a></h6>
-                        <li><a href="#" class="post" id="integer">Integer</a></li>
+                <h6 class="list-group-item-heading"><a href="#" class="post" id="primitive">Primitive Type</a></h6>
+                        <li class="list-group-item"><a href="#" class="post" id="integer">Integer</a></li>
             </ul>
 		</div>
 		</div>
@@ -42,7 +42,7 @@
 		<div id="rightnav">
 			<ul class="list-group" id="bottom_nav">
                 <h6 class="list-group-item-heading"><a href="">I/O</a></h6>
-                        <li><a href=""></a> </li>
+                         <li class="list-group-item"><a href=""></a> </li>
             </ul>
 		</div>
 		</div>
@@ -53,8 +53,17 @@
 	var cls = document.querySelectorAll('.post');
 	for(var x = 0; x < cls.length; x++) {
 		cls[x].addEventListener('click', function(){
-			console.log(this.id);
-		});
+			var fl = this.id;
+			fl += ".html";
+			var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  document.getElementById("view").innerHTML = this.responseText;
+				}
+			  };
+			  xhttp.open("GET", fl, true);
+			  xhttp.send();
+			});
 	}
 	
 </script>
