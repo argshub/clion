@@ -1,1 +1,3 @@
-Hello World
+#Primitive Data Type 
+
+<script src="https://gist.github.com/argshub/f3b2877f51593eae891f0b4813564571.js"></script>
