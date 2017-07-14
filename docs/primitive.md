@@ -4,10 +4,10 @@
 These are programming languages built in data types. Different programming 
 languages have different built in data types in their intend application area.
 May your mind knock in some point that what are these types. In programming language,
-data types  are set of values of same type. When you declaring character, you must
+data types  are set of values of same type. Logically when you declaring a character variable, you must
 have to select the specific character value of languages specific character set. 
 </p></hr></hr>
-<p style="display:inline;">C Support Different types of primitve data types. For Instance - 
+<p style="display:inline;">C Support a few primitve data types. For Instance - 
 <h5>		# Character - to represent ASCCI Character set</h5>
 <h5>		# Integer - to represent integer values</h5>
 <h5>		# Real Number - to represent real number</h5>
@@ -27,4 +27,5 @@ int main() {
 	printf("Real Number: %f\n", flt); 
 	return 0;
 }
-</code>
+</code></hr></hr>
+<li class="pull-right"><a href="#" class="post" id="integer">Next</a></li>
