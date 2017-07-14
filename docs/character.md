@@ -1,13 +1,13 @@
 <h4>#Character Data Type</h4>
 
-<p>There are distinct between different language character set. So different character set represent different character. For instance, ASCCI represent 128(8bit) different character thats are used in formal English Language like a...z with some control character like ?... and UNICODE represent 65536(16bit) character along with all ASCCI character and characters used various human society. C use ASCCI character set. So C character is 8bit in size. 
-Usually character is numeric type. Each character is associated with a integer. A conversion occur during compiling processs.</p>
+<p>Usually character is numeric type. Each character is associated with a integer. A conversion occur during compiling processs. There are distinct between different language character set. So different character set represent different character. For instance, ASCCI represent 128(8bit) different character thats are used in formal English Language like a...z along with some control character like ?...!. UNICODE represent 65536(16bit) different character along with all ASCCI character and others character used by various human society like Bengali, Hindi. C use ASCCI character set. So C character is 8bit in size. 
+</p>
 
 <code>
 #include&lt;stdio.h&gt;
 
 int main(void) {
-	// to declare character type precede char with variable name
+	// to declare character precede char with variable name
 	char ch;
 	// give a intial value
 	ch = 'M';
