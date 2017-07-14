@@ -16,7 +16,7 @@ have to select the specific character value of languages specific character set.
 <code>
 #include&lt;stdio.h&gt;
 int main() {
-	// c is strictly typed language, so variable and valus must be same type
+	// c is strictly typed language, so variable and values must be same type
 	char ch = 'M';  // char to represent character
 	printf("Character: %c\n", ch);
 	
@@ -28,4 +28,4 @@ int main() {
 	return 0;
 }
 </code></hr></hr>
-<a href="#" class="pull-right btn btn-sm btn-info post" id="integer">Integer</a>
+<a href="#" class="pull-right btn btn-sm btn-info post" id="integer">Integer <span class="glyphicon glyphicon-forward"></span></a>
