@@ -28,4 +28,4 @@ int main() {
 	return 0;
 }
 </code></hr></hr>
-<li class="pull-right"><a href="#" class="post" id="integer">Next</a></li>
+<li class="pull-right"><a href="#" class="post" id="integer">Integer</a></li>
