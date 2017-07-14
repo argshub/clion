@@ -8,15 +8,14 @@ data types  are set of values of same type.
 </p>
 
 
-<h5>C Support Different types of primitve data types. For Instance - 
+<h5 style="display:inline;">C Support Different types of primitve data types. For Instance - 
 			# Character - to represent ASCCI Character set
 			# Integer - to represent integer values
 			# Real Number - to represent real number
 </h5>
 
 <code>
-#include <stdio.h>
-
+#include<stdio.h>
 int main() {
 	// c is strictly typed language, so variable and valus must be same type
 	char ch = 'M';  // char to represent character
