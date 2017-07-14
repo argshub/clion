@@ -20,7 +20,7 @@ int main() {
 	char ch = 'M';  // char to represent character
 	printf("Character: %c\n", ch);
 	
-	int integer = 100;  // int to numeric values
+	int integer = 100;  // int to represent numeric values
 	printf("Integer: %d\n", integer);
 	
 	float flt = 10.22;  // float to represent real number
