@@ -10,5 +10,6 @@ int main(void) {
 	
 	float flt = 10.22;  // float to represent real number
 	printf("Real Number: %f\n", flt); 
+		
 	return 0;
 }
