@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
 	// c is strictly typed language, so variable and valus must be same type
 	char ch = 'M';  // char to represent character
 	printf("Character: %c\n", ch);

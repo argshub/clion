@@ -1,18 +1,46 @@
-<h4>#Primitive Data Types</h4>
+<h4>#Integer</h4>
+<p>Integer is to represent numeric values. Logically processor are unable to represent any range of numeric value.
+It's just represent specific range value. In 16bit processor, can represent 16bit numeric value and 32bit processor
+can represent 32bit numeric values. These 16bits or 32bits are processor word size. So the size of integer vary from
+processor and languages implementation. Compiler provide the size of any data type, usually in byte.
+</p></hr></hr>
+<code>
+	#include&lt;stdio.h&gt;
+	int main(void) {
+		int integerData; 
+		printf("size of integer: %d", sizeof integerData); // size of integer
+		return 0;
+	}
+</code></hr></hr>
 
-<p>Primitive data types are those unable to decomposed into simpler values. 
-These are programming languages built in data types. Different programming 
-languages have different built in data types in their intendent application area.
-May your mind can knock in some point that what are these types. In programming language,
-data types  are set of values of same type.
-</p>
+<h5>#Note:: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
+represent -32767...32767 range values. Because C uses two complement number system. It will be discussed later.</h5></hr></hr>
 
-
+<h4>#Integer Operation</h4>
+<p>You can do any arithmetic operation by integer. Such as Addition, Multiplication, Division or any other numeric operation</p>
 
 <code>
-	#include <stdio.h>
-	int main() {
-	  printf("Hello World");
-	  return 0;
-	}
-</code>
+#include&lt;stdio.h&gt;
+int main(void) {
+	int data1 = 10, data2 = 20, data3;
+	// addition operation
+	data3 = data1 + data2;
+	printf("after addition: %d\n", data3);
+	
+	// multiplication operation
+	data3 = data1 * data2;
+	printf("after multiplication: %d\n", data3);
+	
+	// division operation
+	data3 = data2 / data1;
+	printf("after division: %d\n", data3);
+	
+	// subtraction operation
+	data3 = data2 - data1;
+	printf("after subtraction: %d\n", data3);
+	
+	return 0;
+}
+</code></hr></hr>
+
+<a href="#" class="post pull-right btn btn-sm btn-info" id="character">Character <span class="glyphicon glyphicon-forward"></span></a></hr></hr></hr>

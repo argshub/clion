@@ -15,7 +15,7 @@ have to select the specific character value of languages specific character set.
 
 <code>
 #include&lt;stdio.h&gt;
-int main() {
+int main(void) {
 	// c is strictly typed language, so variable and values must be same type
 	char ch = 'M';  // char to represent character
 	printf("Character: %c\n", ch);
