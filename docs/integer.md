@@ -1,8 +1,9 @@
 <h4>#Integer</h4>
-<p>Integer is to represent numeric values. In 16bit processor, can represent 16bit numeric value and 32bit processor
-can represent 32bit numeric values. These 16bits or 32bits are processor word size. So the size of integer vary from
-processor and languages implementation.  We are unable to represent any range of numeric values. Logically processor are unable to represent any range of numeric value.
-It's just represent specific range value.  Compiler provide the size of any data type, usually in byte.
+<p>Integer is to represent numeric values. In 16bit processor, an integer is of size 16bit and In 32bit processor
+the size is 32bit. These 16bits or 32bits are processor word size. So the size of an integer vary from
+processor and languages implementation.  We are unable to represent any range of numeric values. Logically 
+processor are unable to represent any range of numeric value. It's just represent specific range value.  
+Compiler provide the size of any data type, usually in byte.
 </p></hr></hr>
 <code>
 	#include&lt;stdio.h&gt;
@@ -11,9 +12,9 @@ It's just represent specific range value.  Compiler provide the size of any data
 		printf("size of integer: %d", sizeof integerData); // size of integer
 		return 0;
 	}
-</code></hr></hr>
-
-<p style="color:pink;">#Note:: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
+</code>
+</hr></hr></hr>
+<p style="color:red;">#Note:: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
 represent -32767...32767 range values. Because C uses two complement number system. It will be discussed later.</h5></hr></hr>
 
 <h4>#Integer Operation</h4>
