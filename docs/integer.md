@@ -1,5 +1,5 @@
 <h2>Integer</h2>
-<code style="display:inline;">
+<code style="display:block;">
 #include <stdio.h>
 int main() {
   printf("Hello World");
