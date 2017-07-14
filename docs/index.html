@@ -92,12 +92,13 @@
 			  };
 			  xhttp.open("GET", fl, true);
 			  xhttp.send();
-		});
-	}
+		}
+	
 	function binds() {
 		var cls = document.querySelectorAll('.post');
 		for(var x = 0; x < cls.length; x++) {
-		cls[x].addEventListener('click', ajaxRequest(this));
+			cls[x].addEventListener('click', ajaxRequest(this));
+		}
 	}
 	
 </script>
