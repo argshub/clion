@@ -13,7 +13,7 @@ Compiler provide the size of any data type, usually in byte.
 		return 0;
 	}
 </code>
-<br><br><br>
+<br><br>
 <p style="color:red;">#Note:: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
 represent -32767...32767 range values. Because C uses two complement number system. It will be discussed later.</h5></hr></hr>
 
@@ -44,4 +44,4 @@ int main(void) {
 }
 </code></hr></hr>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="character">Character <span class="glyphicon glyphicon-forward"></span></a><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="character">Character <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>

@@ -11,6 +11,7 @@ have to select the specific character value of languages specific character set.
 <h5>		# Character - to represent ASCCI Character set</h5>
 <h5>		# Integer - to represent integer values</h5>
 <h5>		# Real Number - to represent real number</h5>
+<h5>		# Enumerations - to represent set of discrete values</h5>
 </p></hr></hr>
 
 <code>
@@ -28,4 +29,4 @@ int main(void) {
 	return 0;
 }
 </code></hr></hr>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="integer">Integer <span class="glyphicon glyphicon-forward"></span></a><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="integer">Integer <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
