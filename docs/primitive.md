@@ -28,4 +28,4 @@ int main() {
 	return 0;
 }
 </code></hr></hr>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="integer">Integer <span class="glyphicon glyphicon-forward"></span></a>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="integer">Integer <span class="glyphicon glyphicon-forward"></span></a></hr></hr></hr>
