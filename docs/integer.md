@@ -4,7 +4,7 @@ the size is 32bit. These 16bits or 32bits are processor word size. So the size o
 processor and languages implementation.  We are unable to represent any range of numeric values. Logically 
 processor are unable to represent any range of numeric value. It's just represent specific range value.  
 Compiler provide the size of any data type, usually in byte.
-</p><br>
+</p>
 <code>
 #include&lt;stdio.h&gt;
 int main(void) {
