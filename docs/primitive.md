@@ -2,20 +2,19 @@
 
 <p>Primitive data types are those unable to decomposed into simpler values. 
 These are programming languages built in data types. Different programming 
-languages have different built in data types in their intendent application area.
-May your mind can knock in some point that what are these types. In programming language,
-data types  are set of values of same type.
-</p>
-
-
-<h5 style="display:inline;">C Support Different types of primitve data types. For Instance - 
-			# Character - to represent ASCCI Character set
-			# Integer - to represent integer values
-			# Real Number - to represent real number
-</h5>
+languages have different built in data types in their intend application area.
+May your mind knock in some point that what are these types. In programming language,
+data types  are set of values of same type. When you declaring character, you must
+have to select the specific character value of languages specific character set. 
+</p></hr></hr>
+<p style="display:inline;">C Support Different types of primitve data types. For Instance - 
+<h5>		# Character - to represent ASCCI Character set</h5>
+<h5>		# Integer - to represent integer values</h5>
+<h5>		# Real Number - to represent real number</h5>
+</p></hr></hr>
 
 <code>
-#include<stdio.h>
+#include&lt;stdio.h&gt;
 int main() {
 	// c is strictly typed language, so variable and valus must be same type
 	char ch = 'M';  // char to represent character
