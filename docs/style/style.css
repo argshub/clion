@@ -1,11 +1,5 @@
 body {
-    font-family: 'Vollkorn', 'serif';
-    font-weight: 700;
-    font-style: italic;
-    font-size: 10px;
-}
-.post_view {
-    font-size: 8px;
+    
 }
 div#sidenav {
     border-right: dotted #090909;
