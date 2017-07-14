@@ -6,12 +6,12 @@ processor are unable to represent any range of numeric value. It's just represen
 Compiler provide the size of any data type, usually in byte.
 </p><br>
 <code>
-	#include&lt;stdio.h&gt;
-	int main(void) {
-		int integerData; 
-		printf("size of integer: %d", sizeof integerData); // size of integer
-		return 0;
-	}
+#include&lt;stdio.h&gt;
+int main(void) {
+	int integerData; 
+	printf("size of integer: %d", sizeof integerData); // size of integer
+	return 0;
+}
 </code>
 <br>
 <p style="color:red;">#Note:: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
