@@ -1,5 +1,5 @@
 <h2>Integer</h2>
-<code style="display:list-item;">
+<code style="display:contents;">
 #include <stdio.h>
 int main() {
   printf("Hello World");
