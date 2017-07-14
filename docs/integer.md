@@ -4,7 +4,7 @@ the size is 32bit. These 16bits or 32bits are processor word size. So the size o
 processor and languages implementation.  We are unable to represent any range of numeric values. Logically 
 processor are unable to represent any range of numeric value. It's just represent specific range value.  
 Compiler provide the size of any data type, usually in byte.
-</p></hr></hr>
+</p><br>
 <code>
 	#include&lt;stdio.h&gt;
 	int main(void) {
@@ -13,7 +13,7 @@ Compiler provide the size of any data type, usually in byte.
 		return 0;
 	}
 </code>
-<br><br>
+<br>
 <p style="color:red;">#Note:: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
 represent -32767...32767 range values. Because C uses two complement number system. It will be discussed later.</h5></hr></hr>
 
