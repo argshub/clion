@@ -7,7 +7,6 @@
 	<style>
 		body {
 			font-family: 'Lora', serif;
-			font-style: Bold;
 		}
 		div#sidenav {
 			border-right: dotted #090909;
@@ -25,7 +24,7 @@
 			display: none;
 		}
 	a:link {
-    color: green; 
+    color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
@@ -45,7 +44,7 @@ a:hover {
 a:active {
     color: yellow;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 </style>
 
@@ -121,7 +120,7 @@ a:active {
 	for(var x = 0; x < cls.length; x++) {
 		cls[x].addEventListener('click', function(){
 			var fl = this.id;
-			fl += ".html";
+			fl += ".md";
 			var xhttp = new XMLHttpRequest();
 			  xhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
