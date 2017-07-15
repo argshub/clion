@@ -5,7 +5,7 @@
 
 <p>#N.B. : int, float, double are three different types of data. So its better to do arithmetic operation between two same type. It makes the program more portable. For instance- if you do multiplication operation betweeen integer and float. There's a possible to loose the floating point or precission.</p>
  <br><h4>#float</h4>
- <p>The size of float is about host machine word size. It's support 6 digit of precission.</p><br>
+ <p>The size of float is about host machine word size. It's support 6 digit of precission.</p>
  <code>
 #include&lt;stdio.h&gt;
 
@@ -17,7 +17,7 @@ int main(void) {
 	return 0;
 }
  </code>
- 
+  <code>
  <h4>#double</h4>
  <p>The size of double is 64bit. It's support 10 digit of precission.</p><br>
  #include&lt;stdio.h&gt;
@@ -29,5 +29,5 @@ int main(void) {
 	printf("%f", dbl);
 	return 0;
 }
-
+ </code>
 <a href="#" class="post pull-right btn btn-sm btn-info" id="void">void & NULL <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
