@@ -107,8 +107,9 @@
 	
 	document.getElementById("tog").addEventListener('click', function(){
 		var classes = document.querySelectorAll('.list_view');
+		var item = "";
 		for(var d = 0; d < classes.length; d++) {
-			var item += classes[d].innerHTML;
+			item += classes[d].innerHTML;
 		}
 		document.getElementById("nav_view").innerHTML = item;
 	});
