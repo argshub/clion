@@ -17,14 +17,15 @@ int main(void) {
 	return 0;
 }
  </code>
-  <code>
+ 
  <h4>#double</h4>
- <p>The size of double is 64bit. It's support 10 digit of precission.</p><br>
+ <p>The size of double is 64bit. It's support 10 digit of precission.</p>
+  <code>
  #include&lt;stdio.h&gt;
  
  int main(void) {
 	double dbl;  // double declaration
-	printf("size of double: %d\n", sizeof ft);
+	printf("size of double: %d\n", sizeof dbl);
 	dbl = 22.0 / 7.0;
 	printf("%f", dbl);
 	return 0;
