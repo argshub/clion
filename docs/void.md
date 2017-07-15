@@ -22,6 +22,7 @@ int main(void) {
 </code>
 <h4>#NULL Type</h4>
 <p>NULL is to identify whether a pointer have a reference or not. Pointer is a reference to another variable. It will be discussed later.</p>
+<code>
 #include&lt;stdio.h&gt;
 
 int main(void) {
@@ -34,5 +35,5 @@ int main(void) {
 	if(pointer2 == NULL) printf("%s", "NULL Pointer");
 	return 0;
 }
-
-<a href="#" class="post pull-right btn btn-sm btn-info" id="composite">Composite Data Types <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+</code>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="modifiers">Type Modifiers <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
