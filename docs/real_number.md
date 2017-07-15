@@ -3,7 +3,7 @@
 <p> To represent real number(rational), there are two data type exist in C. They are float and double. These data types are language or implementation defined subset of real(rational number). These are the approximation of real number. Because to determine the range of floating point or precission may goes to inifinity. Machine unable to represent such longer precission. In these case, bit string divided into two part, one for range and one for precission. So the range and precission depend on machine or lanaguage floating-point arithmetic.  There are little distinct between these two types and the range and precission make it so</p>
 <br>
 
-<p>#N.B. : int, float, double are three different types of data. So its better to do arithmetic operation between two same type. It makes the program more portable. For instance- if you do multiplication operation betweeen integer and float. There's a possible to loose the floating point or precission.</p>
+<p style="color:red;">#N.B. : int, float, double are three different types of data. So its better to do arithmetic operation between two same type. It makes the program more portable. For instance- if you do multiplication operation betweeen integer and float. There's a possible to loose the floating point or precission.</p>
  <br><h4>#float</h4>
  <p>The size of float is about host machine word size. It's support 6 digit of precission.</p>
  <code>
