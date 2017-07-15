@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-	int data1 = 10, data2 = 20, data3;
+	int data1 = 10, data2 = 20, data3; //integer declaration
 	// addition operation
 	data3 = data1 + data2;
 	printf("after addition: %d\n", data3);
