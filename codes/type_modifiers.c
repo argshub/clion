@@ -1,15 +1,4 @@
-<h4>#Type Modifiers</h4>
-
-<p>Type modifiers are to alter the default behaviour of data types. You are unable to apply any modifiers on any data types. You can apply specific modifier in a specific data type.</p>
-
-<h4>#Some of those modifiers in C</h4>
-<h5>	#signed</h5>
-<h5>	#unsigned</h5>
-<h5>	#short</h5>
-<h5>	#long</h5>
-
-<code>
-#include&lt;stdio.h&gt;
+#include <stdio.h>
 
 int main(void) {
 	// signed & unsigned is only applicable to int & char
@@ -32,6 +21,3 @@ int main(void) {
 	printf("long integer: %d & double %Lf\n", m, n);
 	return 0;
 }
-</code>
-
-<a href="#" class="post pull-right btn btn-sm btn-info" id="signed">Signed Modifiers<span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>

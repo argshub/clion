@@ -14,8 +14,8 @@ int main(void) {
 }
 </code>
 <br>
-<p style="color:red;">#N.B: In 32bit, we can represent 0...65635 range value. But in C, integer is signed by default. So we can 
-represent -32767...32767 range values. Because C uses two complement number system. It will be discussed later.</h5></hr></hr>
+<p style="color:red;">#N.B: In 32bit, we can represent 2^32 range value. But in C, integer is signed by default. So we can 
+represent -2^16...2^16 range values. Because C uses two complement number system. It will be discussed later.</h5></hr></hr>
 
 <h4>#Integer Operation</h4>
 <p>You can do any arithmetic operation by integer. Such as Addition, Multiplication, Division or any other numeric operation</p>
