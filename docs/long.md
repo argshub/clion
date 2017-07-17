@@ -26,4 +26,4 @@ int main(void) {
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="variable">Variable <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="variable">Variables <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
