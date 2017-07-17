@@ -4,7 +4,7 @@
 
 <h5>	#Integer Signed</h4>
 <p>		Integer is by default signed. So preceding the signed before int data type is redundant. </p>
-<p style="color: red;">N.B. - In 32bit, we can represent 2^32 different numeric values. But in two complement number system, we can represent -32768...32767 different values. Because the HO bit is used as sign bit.</p>
+<p style="color: red;">N.B. - In 32bit, we can represent 2^32 different numeric values. But in two complement number system, we can represent -2^16...2^16 different values. Because the HO bit is used as sign bit.</p>
 
 <code>
 #include&lt;stdio.h&gt;

@@ -1,10 +1,32 @@
-<h4>#Type Modifiers</h4>
+<h4>#Unsigned Modifier</h4>
 
-<p>Type modifiers are to alter the default behaviour of data types.</p>
+<p>Unsigned modifier tells the compiler is to ignore sign flag that is to be interpreted as negative nuumber. Because C Compiler use two complement's number system. So no negative numeric values can be refers through unsigned variable. It has a beneficiary issue that we can represent more range numeric value. In 32bit environment, we can represent 2^32 positive value to a unsigned integer variable. Because HO sign flag is ignored by Compiler.  </p>
 
-<h4>#Signed</h4>
-<p>To reprsent negative number, C use two complement's number system. You might imagine what is this two complement's number system. In bit string, the high order bit is interpreted as a sign flag. If the HO bit is 1, then the number interpreted as negative and respectively 0 as positive.</p>
+<h4>#Unsigned Integer</h4>
+<code>
+#include&lt;stdio.h&gt;
 
-<h5>	#Integer Signed</h4>
-<p>		Integer is by default signed. So preceding the signed before int data type is redundant. In 32bit, we can represent 65536 different numeric values. But in two complement number system, we can represent -32768...32767 different values. Because the HO bit is used as sign bit.</p>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="signed">Integer <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+int main(void) {
+	int x = 3147483649;   // it will cause error
+	unsigned int y = 3147483649;
+	printf("signed value: %i\n", x);
+	printf("unsigned value: %u\n", y);
+	return 0;
+}
+</code>
+
+<h4>#Unsigned Character</h4>
+
+<code>
+#include&lt;stdio.h&gt;
+
+int main(void) {
+	// character is unsigned by default so 
+	//the use of unsigned makes no difference
+	// signed or unsigned treated as same by the compiler
+	unsigned char ch = 'M';
+	printf("character: %c\n", ch);
+	return 0;
+}
+</code>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="short">Short Modifier <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
