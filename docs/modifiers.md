@@ -1,6 +1,6 @@
 <h4>#Type Modifiers</h4>
 
-<p>Type modifiers are to alter the default behaviour of data types. You are unable to apply any modifiers on any data types. You can apply specific modifier in a specific data type.</p>
+<p>Type modifiers are to alter the default behaviour of data types. You are unable to apply any modifier to any data types. You can apply specific modifier to a specific data type.</p>
 
 <h4>#Some of those modifiers in C</h4>
 <h5>	#signed</h5>
@@ -34,4 +34,4 @@ int main(void) {
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="signed">Signed Modifiers<span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="signed">Signed Modifier<span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
