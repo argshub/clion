@@ -1,10 +1,28 @@
-<h4>#Type Modifiers</h4>
+<h4>#Long Type Modifiers</h4>
 
-<p>Type modifiers are to alter the default behaviour of data types.</p>
+<p>Long modifier can be apply only to only integer type. Long modifier tells the compiler to load the data to a 32bit register. In 32bit environment, there are 8 32bit regsiter ovelays with 16bit and 8bit register. So the compiler occupy the 32bit register.</p>
+#include&lt;stdio.h&gt;
 
-<h4>#Signed</h4>
-<p>To reprsent negative number, C use two complement's number system. You might imagine what is this two complement's number system. In bit string, the high order bit is interpreted as a sign flag. If the HO bit is 1, then the number interpreted as negative and respectively 0 as positive.</p>
+int main(void) {
+	int x;
+	long int y;
+	printf("size of int: %d\n", sizeof x); // size of short modifier
+	printf("size of short: %d\n", sizeof y); // size of short modifier
+	return 0;
+}
+</code>
+<h4>#Unsigned Short</h4>
+<p> We can also apply unsigned to short modifier to avoid sign flag or negative values.</p>
+<code>
+#include&lt;stdio.h&gt;
 
-<h5>	#Integer Signed</h4>
-<p>		Integer is by default signed. So preceding the signed before int data type is redundant. In 32bit, we can represent 65536 different numeric values. But in two complement number system, we can represent -32768...32767 different values. Because the HO bit is used as sign bit.</p>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="signed">Integer <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+int main(void) {
+	long int x = 3147483647; //  provide error
+	unsigned long int y = 3147483647;
+	printf("signed long: %d\n", x);
+	printf("unsigned long: %u\n", y);
+	return 0;
+}
+</code>
+
+<a href="#" class="post pull-right btn btn-sm btn-info" id="variable">Variable <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>

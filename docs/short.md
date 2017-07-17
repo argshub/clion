@@ -6,12 +6,15 @@
 #include&lt;stdio.h&gt;
 
 int main(void) {
+	int x;
+	short int y;
 	printf("size of int: %d\n", sizeof x); // size of short modifier
 	printf("size of short: %d\n", sizeof y); // size of short modifier
 	return 0;
 }
 </code>
 <h4>#Unsigned Short</h4>
+<p> We can also apply unsigned to short modifier to avoid sign flag or negative values.</p>
 <code>
 #include&lt;stdio.h&gt;
 
@@ -23,5 +26,5 @@ int main(void) {
 	return 0;
 }
 </code>
-<p> We can also apply unsigned to short modifier to avoid sign flag or negative values.</p>
+
 <a href="#" class="post pull-right btn btn-sm btn-info" id="long">Long Modifier <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
