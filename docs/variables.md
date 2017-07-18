@@ -24,4 +24,4 @@ int main(void) {
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="identifiers">Identifiers Name <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="identifiers">Identifier Names <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
