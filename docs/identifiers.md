@@ -1,5 +1,5 @@
 <h4>#Identifier Names</h4>
-<p>Identifier is a way to identify something. To identify someone, we give him/herself a good name and we identify him/her through that name. So a good identifier is necessary. A identifier should have to unique in it's lexical scope. C provide some rules to declare a valid identifier, so the C compiler can identify them in a good manner. You can use any combination of letter, digit or underscore. But you can't precede underscore to a identifier name and it's also better to avoid preceding digit. Identifiers are case sensitive. So upper-case or lower-case are two differenr symbol.</p>
+<p>Identifier is a way to identify something. To identify someone, we give him/herself a good name and we identify him/her through that name. So a good identifier is necessary. A identifier should have to unique in it's lexical scope. C provide some rules to declare a valid identifier, so the C compiler can identify them in a good manner. You can use any combination of letter, digit or underscore. But you can't precede underscore to a identifier name and it's also better to avoid preceding digit. Identifiers are case sensitive. So upper-case or lower-case letters of a particular alphabet set are different symbols. C identifier must have to be ASCCI character set string.</p>
 
 <h4>#Variable Identifier</h4>
 
