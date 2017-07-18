@@ -26,4 +26,4 @@ int main(void) {
 	return 0;
 }
 </code>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="local_variables">Local Variables <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="variable_initialization">Variable Initialization <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>

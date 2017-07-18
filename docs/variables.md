@@ -1,5 +1,5 @@
 <h4>#Variables</h4>
-<p>Once a programmer know the use of variable, he know the esscence of programming - A fellow programmer. So Variables, the most one building block of program. Variable is to reference a value. When a variable is declared, the variable occupy the subsequent memory need to that specific type. So we can give a initial value to that variable for further reference. We can update or modify the value through the reference variable.</p>
+<p>Once a programmer know the use of variable, then he know the esscence of programming - A fellow programmer. So Variables, the most one building block of program. Variable is to reference a value. When a variable is declared, the variable occupy the subsequent memory need to that specific type. So we can give a initial value to that variable for further reference. We can update or modify the value through the reference variable.</p>
 <code>
 #include&lt;stdio.h&gt;
 
