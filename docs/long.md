@@ -25,5 +25,18 @@ int main(void) {
 	return 0;
 }
 </code>
+<h4>#Long Double</h4>
+<p> long modifier can also be apply to double value. It's provide longer range of precission.</p>
+<code>
+#include&lt;stdio.h&gt;
+
+int main(void) {
+	double x;
+	long double y;
+	printf("size of double: %d byte\n", sizeof x);
+	printf("size of long double: %u byte\n", sizeof y);
+	return 0;
+}
+</code>
 
 <a href="#" class="post pull-right btn btn-sm btn-info" id="variable">Variables <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
