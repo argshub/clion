@@ -26,4 +26,4 @@ int main(void) {
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="variable_qualifiers">Varibale Qualifiers <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="variable_qualifiers">Variable Qualifiers <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
