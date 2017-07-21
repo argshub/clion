@@ -4,11 +4,9 @@
 
 <h4>#Constant Qualifier</h4>
 <p>Constant aka const qualifier tells the compiler that it can be accessed anywhere in a program in it's lexical scope. But it's unable to modify the variable value anyhow in explicitly or implicitly. It has read-only property.</p>
-<p style="color:red;">When a const qualifier is used in a variable, it's better to initialize it with an initial value.</p>
+<p style="color:red;">N.B.- When a const qualifier is used in a variable, it's better to initialize it with an initial value.</p>
 <code>
 #include&lt;stdio.h&gt;
-
-#include <stdio.h>
 
 const int totalUser = 100;  // must initialize a const-variable with an initial value
 
