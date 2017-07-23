@@ -87,4 +87,4 @@ int main(void) {
 	return 0;
 }
 </code>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="bitwise_operators">Bitwise Operators <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="ternary_operator">Ternary Operator <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
