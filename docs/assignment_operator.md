@@ -50,4 +50,4 @@ int main(void) {
 	return 0;
 }
 </code>
-<a href="#" class="post pull-right btn btn-sm btn-info" id="arithmetic_operators">Assignment Operator <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="arithmetic_operators">Arithmetic Operators <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
