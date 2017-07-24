@@ -19,7 +19,7 @@ int main(void) {
 	return 0;
 }
 </code>
-<h4>#Dot Operator</h4>
+<h4>#Arrow Operator</h4>
 <p>Arrow operator is used access the member of a composite pointer variable.</p>
 <code>
 #include&lt;stdio.h&gt;
