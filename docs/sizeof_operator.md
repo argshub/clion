@@ -1,20 +1,22 @@
 <h4>sizeof Operator</h4>
-<p>Array is a collection of variables under a common name. In C, array is a variable of the same type in a fixed length, where each value is indexed by a number in range 0..length. square braces([]) is used to array indexing.</p>
+<p>Compile time sizeof operator is used to check the size of a value or a data type.</p>
+<p style="color:red;">N.B.- if we want to know the size of a built-in type, it must have to enclosed by parenthesis likely to be sizeof(char).</p>
 <code>
 #include&lt;stdio.h&gt;
 
 int main(void) {
-	int x[10];        // integer array declaration
+	short int x;
+	long int y;
+	long double longDouble;
 	
-	x[0] = 100;
-	x[1] = 200;
-	x[2] = 300;
-	
-	printf("value of first index: %d\n", x[0]);
-	printf("value of second index: %d\n", x[1]);
-	printf("value of third index: %d\n", x[2]);
+	printf("size of char: %d byte\n", sizeof(char));
+	printf("size of short int: %d byte\n", sizeof x);
+	printf("size of int: %d byte\n", sizeof(int));
+	printf("size of long int: %d byte\n", sizeof y);
+	printf("size of float: %d byte\n", sizeof(float));
+	printf("size of long double: %d byte\n", sizeof longDouble);
 	return 0;
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="sizeof_operator">sizeof Operator <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="expressions">Expressions <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
