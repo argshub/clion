@@ -18,7 +18,7 @@ int main(void) {
 </code>
 
 <h4>#Pointer Referencing(*) Operator</h4>
-<p>Operator(*) is used in two way. If we want to declare a pointer variable, then precede the asterisk(*) before the variable name and if we want to access the value of the pointer variable, then precede *operator before the pointer variable.</p>
+<p>Operator(*) is used in two way. If we want to declare a pointer variable, then precede the asterisk(*) before the variable name and if we want to access the value of the pointer variable, then precede operator(*) before the pointer variable.</p>
 <code>
 #include&lt;stdio.h&gt;
 
