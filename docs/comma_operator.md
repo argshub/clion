@@ -14,4 +14,4 @@ int main(void) {
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="dot_operator">Dot Operator <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="dot_and_arrow_operator">Dot & Arrow Operator <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
