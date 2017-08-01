@@ -1,4 +1,4 @@
-<h4>sizeof Operator</h4>
+<h4>#sizeof Operator</h4>
 <p>Compile time sizeof operator is used to check the size of a value or a data type.</p>
 <p style="color:red;">N.B.- if we want to know the size of a built-in type, it must have to enclosed by parenthesis likely to be sizeof(char).</p>
 <code>
