@@ -1,14 +1,33 @@
 <h4>#Operator Precedence</h4>
+<p>In a expression, we can use multiple operators. We can usually imagine that, it's going to be evaluated from left to right. But in a programming language like C, each operator has a special order of evaluation. Think of an algebraic expression where multiplication/division is done before addition/subtraction. Because multiplication/division operator has precedence over addition/subtraction. C specifies a precedence table of order of operators operation.</p>
+
+<div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name of Group</th>
+        <th>Operators<Left-to-right></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Grouping Operators</td>
+        <td>(), [], ->, -</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <code>
 #include&lt;stdio.h&gt;
 
 int main(void) {
-	int x = 10, y = 20;    // assignment expression
-	x = x + y;             // arithmetic expression
+	int x;
+	x = 25 + 40 / 2 - 9 * 5; 
 	
 	printf("value of x: %d", x);
 	return 0;
 }
 </code></hr></hr>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="operator_precedence">Operators Precedence <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="type_promotion">Type Promotion <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
