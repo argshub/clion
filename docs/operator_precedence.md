@@ -1,5 +1,5 @@
 <h4>#Operator Precedence</h4>
-<p>In a expression, we can use multiple operators. We can usually imagine that, it's going to be evaluated from left to right. But in a programming language like C, each operator has a special order of evaluation. Think of an algebraic expression where multiplication/division is done before addition/subtraction. Because multiplication/division operator has precedence over addition/subtraction. C specifies a precedence table of order of operators operation.</p>
+<p>In an expression, we can use multiple operators. We can usually imagine that, it's going to be evaluated from left to right. But in a programming language like C, each operator has a special order of evaluation. Think of an algebraic expression where multiplication/division is done before addition/subtraction. Because multiplication/division operator has precedence over addition/subtraction. C specifies a precedence table of order of operators operation.</p>
 
 <code>
 #include&lt;stdio.h&gt;

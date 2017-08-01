@@ -1,5 +1,5 @@
 <h4>#Expressions</h4>
-<p>Expressions is a valid combination of operator and operands. In programming language, you can use any valid operand with supported operators in a expression. We usually use variable to refer to a value.</p>
+<p>Expression is a valid combination of operators and operands. In a programming language, you can use any valid operands and operators in an expression. We usually use variable to refer to a value.</p>
 <code>
 #include&lt;stdio.h&gt;
 
