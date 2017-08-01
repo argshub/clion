@@ -1,17 +1,19 @@
-<h4>#Type Promotions</h4>
-<p>If we use different types of value in an expression then the  expression promoted to the highest size of value and it's called type promotion. Think of an expression where you mixed up char(8 bit) and int(32 bit) with double(64 bit) value and the expression goes to return double value. </p>
+<h4>#Type Casts</h4>
+
+<p>If we assign a higher size value to a lower size variable, a automatic conversion occur. It's not a good way to assign one type value to another type variable. Because if you assign int(32 bit) value to a char(8 bit) variable, you are going to loose 24 bit of data. C support a way to cast the data by unary cast operator of base type like char, int, float.</p>
 
 <code>
 #include&lt;stdio.h&gt;
 
 int main(void) {
-	char ch = 'A';
-	int x = 300;
-	double y = 2.2;
-	y = ch + x + y;
-	printf("value of y: %f", y);
+	float x;
+	int y = 5, z = 2;
+	// two intger division returns a integer
+	// so the floating point value is going to be lost
+	x = (float) y / z;   			// cast to float to save the floating point value
+	printf("value of x: %f", x);
 	return 0;
 }
 </code>
 
-<a href="#" class="post pull-right btn btn-sm btn-info" id="type_casts">Type Casts <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
+<a href="#" class="post pull-right btn btn-sm btn-info" id="statements">Statements <span class="glyphicon glyphicon-forward"></span></a><br><br><br><br><br>
